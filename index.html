@@ -1,147 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Field Notes - A Book</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Field Notes - A Book</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
 
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #f4f1ea;
-            color: #2c2c2c;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
+            body {
+                font-family: "Courier New", Courier, monospace;
+                background-color: #f4f1ea;
+                color: #2c2c2c;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+            }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0;
-        }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 0;
+            }
 
-        .book-display {
-            width: 100%;
-            margin: 0;
-            margin-top: 2rem;
-            padding: 0;
-        }
+            .book-display {
+                width: 100%;
+                margin: 0;
+                margin-top: 2rem;
+                padding: 0;
+            }
 
-        .book-display img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
+            .book-display img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
 
-        .content {
-            margin: 3rem 0;
-            text-align: left;
-            padding: 0 2rem;
-        }
+            .content {
+                margin: 3rem 0;
+                text-align: left;
+                padding: 0 2rem;
+            }
 
-        .content p {
-            margin-bottom: 1.5rem;
-            font-size: 1rem;
-        }
+            .content p {
+                margin-bottom: 1.5rem;
+                font-size: 1rem;
+            }
 
-        .divider {
-            width: 100px;
-            height: 1px;
-            background-color: #2c2c2c;
-            margin: 2rem 0;
-            margin-left: 2rem;
-        }
+            .divider {
+                width: 100px;
+                height: 1px;
+                background-color: #2c2c2c;
+                margin: 2rem 0;
+                margin-left: 2rem;
+            }
 
-        .chapters {
-            margin: 3rem 0;
-            text-align: left;
-            padding: 0 2rem;
-        }
+            .chapters {
+                margin: 3rem 0;
+                text-align: left;
+                padding: 0 2rem;
+            }
 
-        .chapters h2 {
-            text-align: left;
-            font-size: 1.2rem;
-            font-weight: normal;
-            letter-spacing: 0.1rem;
-            margin-bottom: 1.5rem;
-            text-transform: uppercase;
-        }
+            .chapters h2 {
+                text-align: left;
+                font-size: 1.2rem;
+                font-weight: normal;
+                letter-spacing: 0.1rem;
+                margin-bottom: 1.5rem;
+                text-transform: uppercase;
+            }
 
-        .chapters ol {
-            list-style-position: inside;
-            font-size: 1rem;
-        }
+            .chapters ol {
+                list-style-position: inside;
+                font-size: 1rem;
+            }
 
-        .chapters li {
-            margin-bottom: 0.75rem;
-            padding-left: 0;
-        }
+            .chapters li {
+                margin-bottom: 0.75rem;
+                padding-left: 0;
+            }
 
-        footer {
-            text-align: left;
-            margin-top: 4rem;
-            padding: 2rem;
-            border-top: 1px solid #2c2c2c;
-            font-size: 0.9rem;
-            opacity: 0.7;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="book-display">
-            <picture>
-                <source media="(min-width: 768px)" srcset="book_desktop.png">
-                <img src="book_mobile.png" alt="Field Notes Book Cover">
-            </picture>
+            footer {
+                text-align: left;
+                margin-top: 4rem;
+                padding: 2rem;
+                border-top: 1px solid #2c2c2c;
+                font-size: 0.9rem;
+                opacity: 0.7;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="book-display">
+                <picture>
+                    <source
+                        media="(min-width: 768px)"
+                        srcset="book_desktop.png"
+                    />
+                    <img src="book_mobile.png" alt="Field Notes Book Cover" />
+                </picture>
+            </div>
+
+            <div class="content">
+                <p>
+                    Ten chapters of stories from a little family of four<br />
+                    as they travel the world together.
+                </p>
+                <p>
+                    Each chapter recounts a situation where the family
+                    demonstrated<br />
+                    ways of knowing accounted for by Esther Meek's
+                    philosophy—<br />
+                    as explored in her works <i>Loving to Know</i>,
+                    <i>Longing to Know</i>,<br />
+                    and <i>A Little Manual for Knowing</i>.
+                </p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="chapters">
+                <h2>Chapters</h2>
+                <ol>
+                    <li>
+                        Ten Years to Begin: How we came to start travelling
+                        around the world.
+                    </li>
+                    <li>
+                        The Americas: How the plans changed to include a
+                        surprising new part.
+                    </li>
+                    <li>
+                        South Africa: Deep questions about the entire reason for
+                        the trip.
+                    </li>
+                    <li>England: Starting a new season.</li>
+                    <li>Alpine Country: Resting in kindness.</li>
+                    <li>Albania: Fully committing to the journey.</li>
+                    <li>The French Alps: Being lost and found again.</li>
+                    <li>Netherlands: Feeling at home.</li>
+                    <li>Southend on Sea: Surprising twist in the story.</li>
+                    <li>Teddington: Trusting in being provided for.</li>
+                </ol>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="content">
+                <p>Coming soon.</p>
+            </div>
+
+            <footer>
+                <p>&copy; 2025 Field Notes. All rights reserved.</p>
+            </footer>
         </div>
-
-        <div class="content">
-            <p>
-                Ten chapters of stories from a little family of four<br>
-                as they travel the world together.
-            </p>
-            <p>
-                Each chapter recounts a situation where the family demonstrated<br>
-                ways of knowing accounted for by Esther Meek's philosophy—<br>
-                as explored in her works <i>Loving to Know</i>, <i>Longing to Know</i>,<br>
-                and <i>A Little Manual for Knowing</i>.
-            </p>
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="chapters">
-            <h2>Chapters</h2>
-            <ol>
-                <li>Ten Years to Begin: How we came to start travelling around the world.</li>
-                <li>The Americas: How the plans changed to include a surprising new part.</li>
-                <li>South America: Deep questions about the entire reason for the trip.</li>
-                <li>The Motherland: Arriving in a new season.</li>
-                <li>Alpine Country: Running out of money.</li>
-                <li>Albania: Being lost and found again.</li>
-                <li>The French Alps: Resting in kindness.</li>
-                <li>Netherlands: Feeling at home.</li>
-                <li>Southend on Sea: Surprising twists in the story.</li>
-                <li>Teddington: Trusting in provision.</li>
-            </ol>
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="content">
-            <p>Coming soon.</p>
-        </div>
-
-        <footer>
-            <p>&copy; 2025 Field Notes. All rights reserved.</p>
-        </footer>
-    </div>
-</body>
+    </body>
 </html>
