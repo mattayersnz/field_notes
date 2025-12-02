@@ -50,6 +50,20 @@
                 font-size: 1rem;
             }
 
+            .scratched {
+                position: relative;
+                display: inline-block;
+                color: #1f1f1f;
+                text-decoration: line-through;
+                text-decoration-color: rgba(160, 20, 20, 0.85);
+                text-decoration-thickness: 0.16em;
+                text-decoration-style: wavy;
+            }
+
+            .scratched::after {
+                content: none;
+            }
+
             .divider {
                 width: 100px;
                 height: 1px;
@@ -107,15 +121,19 @@
 
             <div class="content">
                 <p>
-                    Ten chapters of stories from a little family of four as they
-                    travel the world together.
+                    <span class="scratched">
+                        Ten chapters of stories from a little family of four as
+                        they travel the world together.
+                    </span>
                 </p>
                 <p>
-                    Each chapter recounts a story from the family's journey,
-                    with Meek adding a reflection on knowing rooted in that
-                    chapter's story, drawing on her works which include
-                    <i>Loving to Know</i>, <i>Longing to Know</i>, and
-                    <i>A Little Manual for Knowing</i>.
+                    <span class="scratched">
+                        Each chapter recounts a story from the family's journey,
+                        with Meek adding a reflection on knowing rooted in that
+                        chapter's story, drawing on her works which include
+                        <i>Loving to Know</i>, <i>Longing to Know</i>, and
+                        <i>A Little Manual for Knowing</i>.
+                    </span>
                 </p>
             </div>
 
@@ -124,30 +142,44 @@
             <div class="chapters">
                 <h2>Chapters</h2>
                 <ol>
-                    <li>Ten Years to Begin: Deciding to travel the world.</li>
-                    <li>
+                    <li class="scratched">
+                        Ten Years to Begin: Deciding to travel the world.
+                    </li>
+                    <li class="scratched">
                         The Americas: Changing plans with a surprising addition.
                     </li>
-                    <li>Salt Rock: Fully committing to the journey.</li>
-                    <li>
+                    <li class="scratched">
+                        Salt Rock: Fully committing to the journey.
+                    </li>
+                    <li class="scratched">
                         England: Starting a new season on the other side of the
                         world.
                     </li>
-                    <li>Alpine Country: Resting in the kindness of others.</li>
-                    <li>Albania: Participating in giving and receiving.</li>
-                    <li>The French Alps: Being lost and found again.</li>
-                    <li>Netherlands: Feeling at home in another land.</li>
-                    <li>
+                    <li class="scratched">
+                        Alpine Country: Resting in the kindness of others.
+                    </li>
+                    <li class="scratched">
+                        Albania: Participating in giving and receiving.
+                    </li>
+                    <li class="scratched">
+                        The French Alps: Being lost and found again.
+                    </li>
+                    <li class="scratched">
+                        Netherlands: Feeling at home in another land.
+                    </li>
+                    <li class="scratched">
                         Southend on Sea: Finding a rhythm in a coastal town.
                     </li>
-                    <li>Teddington: Trusting in provision.</li>
+                    <li class="scratched">
+                        Teddington: Trusting in provision.
+                    </li>
                 </ol>
             </div>
 
             <div class="divider"></div>
 
             <div class="content">
-                <p>Coming soon.</p>
+                <p class="scratched">Coming soon.</p>
             </div>
 
             <footer>
